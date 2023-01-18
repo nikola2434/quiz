@@ -13,3 +13,8 @@ export interface ITypeQuiz {
   correctIndex: number[];
   hint?: string;
 }
+
+export interface IAnswer {
+  question: number;
+  answers: number[];
+}

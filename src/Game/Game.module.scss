@@ -1,0 +1,21 @@
+@import "../Styles/constans.module.scss";
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  .game {
+    width: 800px;
+    border: $color_blue 2px solid;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    > div:first-child {
+      margin-bottom: 30px;
+    }
+    .button{
+        margin-top: 20px;
+    }
+  }
+}

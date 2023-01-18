@@ -1,4 +1,4 @@
-import { ITypeQuiz } from "./../config/Types";
+import { ITypeQuiz } from "../config/Types";
 export const koikaData: ITypeQuiz[] = [
   {
     title: "Какие виды ламп запрещается использовать в лабораториях",

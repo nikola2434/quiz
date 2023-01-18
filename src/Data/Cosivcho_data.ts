@@ -1,4 +1,4 @@
-import { ITypeQuiz } from "./../config/Types";
+import { ITypeQuiz } from "../config/Types";
 export const cosivchoData: ITypeQuiz[] = [
   {
     title:
