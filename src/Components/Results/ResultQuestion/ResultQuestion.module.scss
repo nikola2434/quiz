@@ -1,9 +1,13 @@
 .result {
   margin-left: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+
   .options {
     margin-left: 10px;
     margin-top: 5px;
-    margin-bottom: 20px;
     .item {
       margin-bottom: 5px;
       .default {

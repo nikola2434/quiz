@@ -11,3 +11,8 @@ export const saveResultLocalStorage = (key: string, value: IAnswer) => {
   }
 };
 
+export const getStepLocalStorage = (key: string): number => {
+  const step = localStorage.getItem(key);
+  if (step) return JSON.parse(step);
+  return 0;
+};

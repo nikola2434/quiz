@@ -10,11 +10,14 @@ export interface IResult {
 }
 
 const Message: FC<IResult> = (props) => {
+  const onClick = () => {
+    localStorage.removeItem(props.data[1].title);
+  };
   return (
     <div className={style.message}>
       <img src={search} alt="test" draggable={false} />
       <div className={style.text}>Тест пройден!</div>
-      <Link to={"/results"} state={props}>
+      <Link to={"/results"} state={props} onClick={onClick}>
         Результаты
       </Link>
     </div>

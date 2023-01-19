@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { useLocation } from "react-router-dom";
-import { IAnswer, ITypeQuiz } from "../../config/Types";
+import { ITypeQuiz } from "../../config/Types";
 import ResultQuestion from "./ResultQuestion/ResultQuestion";
 import style from "./Results.module.scss";
 
@@ -14,6 +14,7 @@ const Results: FC = () => {
         <ResultQuestion
           question={item}
           result={location.state?.result[index]}
+          key={item.title}
         />
       ))}
     </div>

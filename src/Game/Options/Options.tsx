@@ -15,7 +15,7 @@ const Options: FC<IOptionsProps> = ({ onChange, option, answer }) => {
       <Checkbox.Group value={answer} onChange={onChange}>
         <div className={style.checkbox}>
           {option.map((item, index) => (
-            <div className={style.item}>
+            <div className={style.item} key={item}>
               <Checkbox value={index} key={item}>
                 {item}
               </Checkbox>
