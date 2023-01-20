@@ -6,6 +6,7 @@
   width: 100vw;
   height: 100vh;
   .game {
+    margin: 30px;
     width: 800px;
     border: $color_blue 2px solid;
     padding: 40px 20px;
@@ -14,8 +15,8 @@
     > div:first-child {
       margin-bottom: 30px;
     }
-    .button{
-        margin-top: 20px;
+    .button {
+      margin-top: 20px;
     }
   }
 }
